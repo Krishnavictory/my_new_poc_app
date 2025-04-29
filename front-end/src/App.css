@@ -1,0 +1,159 @@
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f4f6f8;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+input,
+textarea {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 1rem;
+  background-color: #fff;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+li {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 16px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+li h3 {
+  margin: 0 0 8px 0;
+}
+
+li p {
+  margin: 0 0 10px 0;
+}
+
+.card-actions button {
+  margin-right: 8px;
+  font-size: 0.9rem;
+}
+
+
+.edit-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+  border-radius: 12px;
+  background-color: #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.edit-form input,
+.edit-form textarea {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+
+
+
+.note-card {
+  background-color: #ffffff;
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  margin: 10px;
+  max-width: 100%;
+  flex: 1 1 300px;
+  transition: transform 0.2s ease;
+}
+
+.note-card:hover {
+  transform: translateY(-4px);
+  cursor: pointer;
+}
+
+.note-card h3 {
+  display: flex;
+  align-items: center;
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.note-card h3::before {
+ 
+  margin-right: 8px;
+  font-size: 1.2rem;
+}
+
+.note-card p {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 16px;
+}
+
+.note-card button {
+  border: none;
+  padding: 10px 16px;
+  margin-right: 10px;
+  border-radius: 8px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.note-card button:first-child {
+  background-color: #0d6efd;
+  color: white;
+}
+
+.note-card button:first-child:hover {
+  background-color: #0b5ed7;
+}
+
+.note-card button:last-child {
+  background-color: #dc3545;
+  color: white;
+}
+
+.note-card button:last-child:hover {
+  background-color: #bb2d3b;
+}
+
